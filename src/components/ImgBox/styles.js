@@ -8,7 +8,7 @@ export const Image = styled.div.attrs(({ $movedX, $movedY }) => ({
   /* transform: ${({ $movedX, $movedY }) =>
     `translate(${$movedX}px, ${$movedY}px)`}; */
   /* background-image: url("/image1.jpeg"); */
-  background-image: url(${process.env.PUBLIC_URL}/image1.png);
+  background-image: url(${process.env.PUBLIC_URL}/image1.jpeg);
   background-position: ${({ $initialX, $initialY }) =>
     `-${$initialX * 100}px -${$initialY * 100}px`};
   background-size: 400px 600px;
